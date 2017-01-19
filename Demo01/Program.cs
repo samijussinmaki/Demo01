@@ -10,7 +10,11 @@ namespace Demo01
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("helllllooo");
+            int luku;
+            Console.Write("Anna luku > ");
+            luku = int.Parse(Console.ReadLine());
+            Console.WriteLine("Annoit luvun " + luku);
+            
         }
     }
 }
