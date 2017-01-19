@@ -13,8 +13,16 @@ namespace Demo01
             int luku;
             Console.Write("Anna luku > ");
             luku = int.Parse(Console.ReadLine());
-            Console.WriteLine("Annoit luvun " + luku);
             
+            switch(luku);
+            {
+                ykkonen1: Console.WriteLine("yksi"); break;
+                kakkonen2: Console.WriteLine("kaksi"); break;
+                kolmonen: Console.WriteLine("kolme"); break;
+                perus: Console.WriteLine("joku muu numero"); break;
+
+            }
+            Console.ReadLine();
         }
     }
 }
