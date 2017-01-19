@@ -10,6 +10,12 @@ namespace tehtava06
     {
         static void Main(string[] args)
         {
+            int matka;
+            double kulutus, bensahinta;
+            kulutus = 7.02;
+            bensahinta = 1.595;
+
+
             Console.WriteLine("no johan oliki");
         }
     }
