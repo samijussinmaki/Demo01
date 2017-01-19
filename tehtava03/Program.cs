@@ -4,13 +4,13 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace tehtava02
+namespace tehtava03
 {
     class Program
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("ishigongrs");
+            Console.WriteLine("olihrgpoehgo");
         }
     }
 }
